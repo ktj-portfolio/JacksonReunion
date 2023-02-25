@@ -11581,12 +11581,17 @@ footer.footer .social-link:hover {
 /* Remove extra left and right margins, due to padding in columns */
 .row {margin: 0 -5px;
   justify-content: center;
+  
 padding-bottom: 70px;}
 
 .hew {margin: 0 -5px;
-  justify-content: center;
   flex-wrap: nowrap;
-padding-bottom: 70px;}
+}
+
+@media screen and (max-width: 992px) {
+  .hew {
+    flex-wrap: wrap;}
+}
 
 /* Clear floats after the columns */
 .row:after {
