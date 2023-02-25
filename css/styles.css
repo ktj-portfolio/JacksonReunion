@@ -11661,3 +11661,7 @@ padding-bottom: 70px;}
   width:1000px;
   height:400px;
 }
+
+.italic {
+  font-style: italic!important;
+}
